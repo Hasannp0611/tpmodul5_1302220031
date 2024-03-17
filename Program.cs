@@ -17,6 +17,9 @@ class Program
         String nama = "Hasan Nurrahman";
         String sapa = sapaan.SapaUser(nama);
         Console.WriteLine(sapa);
+
+        DataGeneric<string> data = new DataGeneric<string>("1302220031");
+        data.PrintData();
     }
 }
 
