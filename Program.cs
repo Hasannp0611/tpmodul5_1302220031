@@ -14,7 +14,7 @@ class Program
     static void Main(String[] args)
     {
         HaloGeneric sapaan = new HaloGeneric();
-        String nama = "Hasan Nurrahman";
+        String nama = "Hasan Nurrahman Pane";
         String sapa = sapaan.SapaUser(nama);
         Console.WriteLine(sapa);
 
